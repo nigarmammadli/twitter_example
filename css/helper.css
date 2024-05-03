@@ -1,0 +1,46 @@
+.container {
+    width: 1265px;
+    margin: 0 auto;
+}
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right;
+}
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+.bg-primary {
+    background: var(--colorPrimary);
+}
+.bg-primary-opacity {
+    background: var(--colorPrimaryOpacity);
+}
+.text-primary {
+    color: var(--colorPrimary);
+}
+.text-primary-opacity {
+    color:  var(--colorPrimaryOpacity);
+}
+.bg-body-color {
+background: var(--colorBody);
+}
+.mb {
+    margin-bottom: 8px;
+}
+.mb1 {
+    margin-bottom: 16px;
+}
+.mr {
+    margin-right: 52px;
+}
+.b-g {
+    background: rgba(32, 35, 39, 1);
+
+}
+.mb2 {
+    margin-bottom: 4px;
+}

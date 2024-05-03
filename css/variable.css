@@ -1,0 +1,7 @@
+:root {
+    --colorPrimary: rgb( 217 217 217);
+    --colorBody: rgb(0 0 0);
+    --colorBorder: rgb(47 51 54);
+    --colorPrimaryOpacity:  rgba(110, 118, 125, 1);
+
+}

@@ -1,0 +1,418 @@
+.lefting {
+    width: 275px;
+    height: 1097px;
+    display: flex;
+    flex-direction: column;
+
+    & button {
+        width: 225px;
+        height: 52px;
+        background: rgba(29, 155, 240, 1);
+        padding: 16px 0px 16px 0px;
+        border-radius: 52px;
+        color: white;
+
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20.29px;
+
+
+    }
+
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+
+
+}
+
+.navbar {
+    width: 251px;
+    height: 514px;
+
+    & span {
+        width: 251px;
+        height: 50px;
+        padding: 13px;
+        display: inline-flex;
+    }
+
+    & h3 {
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+
+    .active {
+        position: relative;
+    }
+
+    .active1 {
+        position: static;
+        top: 6px;
+        left: 24px;
+    }
+}
+
+.end {
+    width: 251px;
+    height: 64px;
+    top: 1004px;
+    left: 12px;
+    position: sticky;
+    padding: 14px;
+
+    & h4 {
+        display: inline-block;
+    }
+
+    & span {
+        margin-left: 12px;
+    }
+
+    .more {
+        margin-top: 7px;
+    }
+}
+
+.center {
+    width: 600px;
+    height: 1097px;
+    border-left: 1px solid var(--colorBorder);
+    border-right: 1px solid var(--colorBorder);
+
+
+}
+
+.header {
+    width: 600px;
+    height: 53px;
+    padding: 14px 16px;
+}
+
+.second {
+    width: 600px;
+    height: 119px;
+    border-top: 1px solid var(--colorBorder);
+    border-bottom: 1px solid var(--colorBorder);
+    position: relative;
+
+    .pp {
+        margin-left: 16px;
+        display: inline-block;
+        margin-top: 4px;
+
+        & span {
+            margin-top: 20px;
+            margin-left: 12px;
+            font-size: 20px;
+        }
+    }
+
+    .foot {
+        width: 520px;
+        height: 48px;
+        top: 67px;
+        left: 66px;
+        padding: 12px 2px 0px 2px;
+        position: absolute;
+
+        & button {
+            width: 79px;
+            height: 36px;
+            background: rgba(29, 155, 240, 0.5);
+            margin-bottom: 4px;
+            padding: 9px 16px 9px 16px;
+            border-radius: 36px;
+            color: rgb(128 128 128);
+        }
+    }
+}
+
+.third {
+    width: 598px;
+    height: 167px;
+    padding: 12px 16px 12px 16px;
+
+
+}
+
+.main {
+    width: 506px;
+    height: 97px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+
+    & span {
+        display: inline-block;
+        margin-bottom: 5px;
+        gap: 4px;
+        line-height: 17.9px;
+        margin-left: 4px;
+
+        & img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+
+        }
+    }
+
+    & h4 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    & p {
+        font-size: 15px;
+        margin-left: 4px;
+    }
+
+}
+
+.foot1 {
+    width: 506px;
+    height: 34px;
+    display: inline-block;
+    margin-left: 55px;
+
+
+    & span {
+        padding: 7px;
+        display: inline-block;
+        width: 75px;
+        height: 34px;
+
+        & p {
+            width: 20px;
+            height: 16px;
+            padding: 0px 12px 0px 12px;
+            margin-top: 9px;
+            font-size: 13px;
+        }
+
+        & img {
+            margin: 7px;
+        }
+    }
+}
+
+.fourth {
+    width: 598px;
+    height: 458px;
+    padding: 12px 16px 12px 16px;
+    border-top: 1px solid var(--colorBorder);
+}
+
+
+
+.plant {
+    border-radius: 34px;
+    width: 504px;
+    height: 283.5px;
+    margin-left: 55px;
+}
+
+.fifth {
+    width: 598px;
+    height: 113px;
+    padding: 12px 16px 12px 16px;
+    border-top: 1px solid var(--colorBorder);
+
+
+}
+
+.main1 {
+    width: 506px;
+    height: 47px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+
+    & span {
+        display: inline-block;
+        margin-bottom: 5px;
+        gap: 4px;
+        line-height: 17.9px;
+        margin-left: 4px;
+
+        & img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+
+        }
+    }
+
+    & h4 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    & p {
+        font-size: 15px;
+        margin-left: 4px;
+    }
+}
+
+.righting {
+    width: 360px;
+    height: 1097px;
+}
+
+.search {
+    width: 350px;
+    height: 42px;
+    padding: 12px;
+    border-radius: 42px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+
+    & input {
+        margin-left: 12px;
+        background: transparent;
+    }
+
+
+}
+
+.trends {
+    width: 350px;
+    height: 426px;
+
+    border-radius: 15px;
+
+    & button {
+        width: 116px;
+        height: 50px;
+        padding: 16px;
+        color: rgba(29, 155, 240, 1);
+        background: transparent;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.9px;
+        text-align: left;
+    }
+
+
+}
+
+.head {
+    padding: 12px 16px;
+    width: 350px;
+    height: 48px;
+
+
+    & img {
+        margin-top: 5px;
+        margin-right: 15px;
+    }
+}
+
+.trending {
+    width: 350px;
+    height: 82px;
+    padding: 12px 16px;
+
+    & span {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    & img {
+        color: rgb(110 118 125);
+    }
+
+
+}
+
+.social {
+    width: 350px;
+    height: 314px;
+
+    border-radius: 15px;
+
+    .btn {
+
+        width: 116px;
+        height: 50px;
+        padding: 16px;
+        color: rgba(29, 155, 240, 1);
+        background: transparent;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.9px;
+        text-align: left;
+
+
+    }
+
+
+}
+
+.socials {
+    width: 350px;
+    height: 72px;
+    padding: 12px 16px 12px 16px;
+
+    & button {
+        width: 73px;
+        height: 31px;
+        padding: 7px 15px 7px 15px;
+        margin-top: 9px;
+
+        border-radius: 32px;
+
+
+    }
+}
+
+.main2 {
+    width: 168px;
+    height: 48px;
+    margin-left: 12px;
+    padding: 5px;
+
+    & span {
+        display: inline-block;
+        width: 168px;
+        height: 20px;
+        line-height: 17.9px;
+        margin-bottom: 2px;
+        
+    }
+    & p{
+        margin-left: 4px;
+    }
+
+    & h4 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    & img {
+
+        display: inline-block;
+        width: 17.5px;
+        height: 17.5px;
+        vertical-align: middle;
+
+    }
+}
+
+.notification-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.notification-badge {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -6px;
+    left: 10px;
+
+
+}
